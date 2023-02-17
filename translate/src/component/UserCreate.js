@@ -7,7 +7,6 @@ const UserCreate = () => {
     return (
         <div className="ui form">
             <Field/>
-
             <Button/>
         </div>
     )
