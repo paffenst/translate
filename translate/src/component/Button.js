@@ -3,7 +3,7 @@ import LanguageContext from '../contexts/LanguageContext'
 
 class Button extends React.Component {
 
-    static caontextType = LanguageContext
+    static contextType = LanguageContext
 
     render() {
         const text = this.context === 'english' ? 'Submit' : 'Voorleggen';
